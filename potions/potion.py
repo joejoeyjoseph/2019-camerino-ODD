@@ -61,6 +61,9 @@ class Potion:
         else:
             print("Doesn't seem quite right yet... Potion does not look cooked.")
 
+def func():
+    print('you could access this function, well done!')
+
 
 # ignore this part, this is just so that I have to list numpy and matplotlib in dependencies
 foo = np.array([0, 1, 2, 3])

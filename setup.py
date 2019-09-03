@@ -21,6 +21,7 @@ setup(
     license = 'MIT',
     url = 'https://github.com/ASPP/2019-camerino-ODD.git',
     install_requires = ['numpy >= 1.14.0',
-                        'matplotlib >= 3.0.0'],
+                        'matplotlib >= 3.0.0',
+                        'pytest >= 3.0.0'],
 )
 

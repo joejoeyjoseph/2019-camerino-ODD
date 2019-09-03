@@ -56,6 +56,7 @@ def inspection_by_Snape(potion, target_potion='python_expert'):
         print(f'Snape smirks and remarks "You have used the wrong cauldron or heat, {potion.name}!" \n'
               f'With a flick of his wand he vanishes the potion. \n'
               f'"I am taking 10 points from Ravenclaw, {potion.name}. Start again!"')
+        return
 
     print_delay_dots()
 
@@ -66,6 +67,7 @@ def inspection_by_Snape(potion, target_potion='python_expert'):
         print(f'Snape smirks and remarks "You have used the wrong ingredients, {potion.name}!" \n'
               f'With a flick of his wand he vanishes the potion. \n'
               f'"I am taking 10 points from Gryffindor, {potion.name}. Start again!"')
+        return
 
     print_delay_dots()
 
@@ -76,6 +78,7 @@ def inspection_by_Snape(potion, target_potion='python_expert'):
         print(f'Snape smirks and remarks "Your potion is not properly cooked!" \n'
               f'With a flick of his wand he vanishes the potion. \n'
               f'"I am taking 10 points from Hufflepuff, {potion.name}. Start again!"')
+        return
 
     print_delay_dots()
 

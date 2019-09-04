@@ -15,9 +15,23 @@ def make_example_potion(name):
 
     return my_potion
 
+""" This function makes expert potions."""
 
 def make_python_expert_potion(name):
+    """
+    Set up equipment, ingredients, stirring and cooking.
 
+    In this function you specify the above mentioned settings and therefore, create your expert potion.
+
+    Parameters
+    -----------
+    name: str
+        Name of your potion.
+    
+    Returns
+    -----------
+    python_potion - obj
+    """
     python_potion = potions.potion.Potion(name=name)
     # Set up
     python_potion.setup(container=potions.tools.equipment.pewter_cauldron, heat_source=potions.tools.equipment.fire)
